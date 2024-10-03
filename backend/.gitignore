@@ -1,6 +1,7 @@
 #Dependencies
 node_modules
 .vscode
+.env
 
 # dotenv environment variables file
 
@@ -26,6 +27,7 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+
 
 # Visual Studio Code
 .vscode/*

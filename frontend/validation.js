@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
           };
           submitBtn.style.display = "none"; // Hide the button
           spinner.style.display = "inline-block";
-          const response = await fetch('http://localhost:3000/send-email', {
+          const response = await fetch('https://portfolio-pt3y.onrender.com/send-email', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
